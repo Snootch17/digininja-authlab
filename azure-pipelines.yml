@@ -1,6 +1,6 @@
 # Starter pipeline
-task: WhiteSource@21
-  inputs:
+- task: whitesource.WhiteSource-azure-devops-services.bolt.wss.WhiteSource@21
+inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'Azure_Playground'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
